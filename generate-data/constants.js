@@ -1,0 +1,19 @@
+exports.TEACHERS_NUMBER = 100;
+exports.STUDENTS_NUMBER = 100;
+exports.SUBJECTS_NUMBER = 100;
+exports.GROUPS_NUMBER = 100;
+exports.CLASSES_NUMBER = 100;
+exports.SEMESTERS_NUMBER = 2;
+exports.INITIAL_SEMESTER_START_DATE = "09-01-2023";
+exports.WEEKDAYS = ["Mon", "Tue", "Wen", "Thu", "Fri", "Sat"];
+// exports.START_TIMES = [510, 610, 710, 810, 910, 1010, 1110, 1210];
+exports.START_TIMES = ["08:30", "10:10", "11:50", "13:30", "15:10", "16:50", "18:30", "20:00"];
+
+exports.DB_NAME = "univer_schedule";
+exports.TEACHERS_TABLE = "teachers";
+exports.CLASSES_TABLE = "teachers";
+exports.STUDENTS_TABLE = "students";
+exports.SUBJECTS_TABLE = "subjects";
+exports.GROUPS_TABLE = "groups";
+exports.SEMESTERS_TABLE = "semesters";
+exports.CLASSES_TABLE = "classes";
